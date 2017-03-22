@@ -1,0 +1,29 @@
+{
+  "name": "alexaserverrfo",
+  "version": "1.0.0",
+  "description": "Alexa Server Rfo Project",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-app-server": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo7k/AlexaServerRfo.git"
+  },
+  "keywords": [
+    "alexa",
+    "test",
+    "server",
+    "echo"
+  ],
+  "author": "Caca Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardo7k/AlexaServerRfo/issues"
+  },
+  "homepage": "https://rfo.im"
+}
