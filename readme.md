@@ -1,6 +1,6 @@
 # AlexaServerRfo
 
-1. Necessário ter SSL 
+1. Necessário ter SSL
 2. Digital Ocean + Let's Encrypt: [https://goo.gl/kP4hpC](https://goo.gl/kP4hpC)
 3. Necessário Node.js
 ```
@@ -14,7 +14,7 @@ $ sudo apt-get install npm
 $ npm install pm2@latest -g
 ```
 Instale o exemplo Alexa Server e adicione o exemplo de Skill.
-	
+
 	$ git clone git@github.com:ricardo7k/AlexaServerRfo.git
 	$ cd AlexaServerRfo/
 	$ npm install alexa-app-server
@@ -69,7 +69,7 @@ GetNewIntent {variable}
 ```
 < Next >
 ```
-	
+
 >Adicione a url onde ficará a skill instalada (Primeiro selecion https, North America)
 
 ![alt tag](https://rfo.im/alexa/img/05.png)
@@ -77,13 +77,18 @@ GetNewIntent {variable}
 ```
 https://{url}/alexa/skill
 ```
->< Next >
+
+```
+< Next >
+```
 
 Depois selcione: ```My development endpoint has a certificate from a trusted certificate authority```
 
 ![alt tag](https://rfo.im/alexa/img/06.png)
 
->< Next >
+```
+< Next >
+```
 
 ----------
 ### Vamos testar
@@ -92,4 +97,4 @@ Depois selcione: ```My development endpoint has a certificate from a trusted cer
 
 * Em Service Simulator
 * Coloque o texto de invocation (super number)
-* Ele responderá o que está na sua skill 
+* Ele responderá o que está na sua skill
