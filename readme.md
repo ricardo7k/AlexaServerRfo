@@ -29,10 +29,19 @@ Instale o exemplo Alexa Server e adicione o exemplo de Skill.
 
 >Vamos para a amazom. https://developer.amazon.com/
 
-1. Depois do Login, vá em Alexa, depois <Get Started>
-2. Clique em < Add a New Skill >
-3. Coloque um Name, e o invocation name (o que você irá pronunciar para a Alexa atender). Depois <Next>
-4. Insira um intents schema
+* Depois do Login, vá em Alexa, depois ```<Get Started>```
+
+![alt tag](https://rfo.im/alexa/img/01.png)
+
+* Clique em ```< Add a New Skill >```
+
+![alt tag](https://rfo.im/alexa/img/02.png)
+
+* Coloque um Name, e o invocation name (o que você irá pronunciar para a Alexa atender). Depois ```<Next>```
+
+![alt tag](https://rfo.im/alexa/img/03.png)
+
+* Insira um intents schema, Custom Slot Types (Add Slot) e Sample Utterances
 ```
 {
   "intents": [
@@ -47,20 +56,40 @@ Instale o exemplo Alexa Server e adicione o exemplo de Skill.
     }
   ]
 }
-```	
+```
+```
+GetNewIntent for {variable}
+GetNewIntent of {variable}
+GetNewIntent clear {variable}
+GetNewIntent {variable}
+```
+
+![alt tag](https://rfo.im/alexa/img/04.png)
+
+```
 < Next >
+```
 	
 >Adicione a url onde ficará a skill instalada (Primeiro selecion https, North America)
+
+![alt tag](https://rfo.im/alexa/img/05.png)
+
 ```
 https://{url}/alexa/skill
 ```
 >< Next >
 
 Depois selcione: ```My development endpoint has a certificate from a trusted certificate authority```
+
+![alt tag](https://rfo.im/alexa/img/06.png)
+
 >< Next >
 
 ----------
 ### Vamos testar
+
+![alt tag](https://rfo.im/alexa/img/07.png)
+
 * Em Service Simulator
 * Coloque o texto de invocation (super number)
 * Ele responderá o que está na sua skill 
