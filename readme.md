@@ -27,7 +27,7 @@ Instale o exemplo Alexa Server e adicione o exemplo de Skill.
 	$ cd ../../
 	$ pm2 start server.js
 
->Vamos para a amazom. https://developer.amazon.com/
+>Vamos para a Amazon. https://developer.amazon.com/
 
 * Depois do Login, vá em Alexa, depois ```<Get Started>```
 
