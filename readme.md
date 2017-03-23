@@ -1,4 +1,4 @@
-#AlexaServerRfo
+# AlexaServerRfo
 
 1. Necessário ter SSL 
 2. Digital Ocean + Let's Encrypt: [https://goo.gl/kP4hpC](https://goo.gl/kP4hpC)
@@ -60,7 +60,7 @@ Depois selcione: ```My development endpoint has a certificate from a trusted cer
 >< Next >
 
 ----------
-###Vamos testar
-Em Service Simulator
-Coloque o texto de invocation (super number)
-Ele responderá o que está na sua skill 
+### Vamos testar
+* Em Service Simulator
+* Coloque o texto de invocation (super number)
+* Ele responderá o que está na sua skill 
